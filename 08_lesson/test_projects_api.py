@@ -5,6 +5,7 @@ PROJECTS_URL = "/api-v2/projects"
 
 
 class TestProjectsAPI:
+    """Тесты для работы с проектами через API."""
 
     def test_create_project_positive(self, api_client, base_url):
         """Тест создания проекта с корректными данными."""
@@ -112,4 +113,5 @@ class TestProjectsAPI:
         assert response.status_code in [400, 422], (
             f"Ожидался 400/422, получен {response.status_code}"
         )
+
 
