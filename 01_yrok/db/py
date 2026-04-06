@@ -1,0 +1,1 @@
+db_connection_string = "postgres://qa:skyqa@5.101.50.27:5432/x_clients"
