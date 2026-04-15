@@ -1,0 +1,1 @@
+[{"uid":"294a63f6f3c76922","name":"Проверка функции отложенного результата","time":{"start":1776271889552,"stop":1776271890616,"duration":1064},"status":"broken","severity":"normal"},{"uid":"354143b6eeb9b0d3","name":"Успешная покупка трех товаров","time":{"start":1776271942945,"stop":1776272063120,"duration":120175},"status":"broken","severity":"critical"}]
