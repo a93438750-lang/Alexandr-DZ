@@ -1,0 +1,3 @@
+# Исключаем папки с результатами и отчетами
+allure-results/
+allure-report/
