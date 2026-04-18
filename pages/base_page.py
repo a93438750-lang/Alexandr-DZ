@@ -4,11 +4,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from typing import Tuple
 
+
 class BasePage:
     """
-    Базовый класс для всех страниц. Содержит общие методы для взаимодействия с элементами.
+    Базовый класс для всех страниц.
+    Содержит общие методы для взаимодействия с элементами.
     """
-    def __init__(self, driver: webdriver.Chrome):
+
+    def __init__(self, driver: webdriver.WebDriver):
         """
         Инициализация базового класса страницы.
 

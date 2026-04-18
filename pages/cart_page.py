@@ -1,10 +1,12 @@
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 
+
 class CartPage:
     """
     Класс для работы со страницей корзины.
     """
+
     CHECKOUT_BUTTON = (By.ID, "checkout")
 
     def __init__(self, driver: webdriver.Chrome):

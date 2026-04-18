@@ -1,10 +1,12 @@
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 
+
 class LoginPage:
     """
     Класс для работы со страницей авторизации.
     """
+
     USERNAME_FIELD = (By.ID, "user-name")
     PASSWORD_FIELD = (By.ID, "password")
     LOGIN_BUTTON = (By.ID, "login-button")
@@ -35,8 +37,8 @@ class LoginPage:
 
     def click_login(self):
         """
-         Кликает по кнопке входа в систему.
+        Кликает по кнопке входа в систему.
 
-         :return: None
-         """
+        :return: None
+        """
         self.driver.find_element(*self.LOGIN_BUTTON).click()

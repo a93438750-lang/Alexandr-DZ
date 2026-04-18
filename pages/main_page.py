@@ -1,10 +1,12 @@
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 
+
 class MainPage:
     """
     Класс для работы с главной страницей магазина.
     """
+
     BACKPACK_ADD_BUTTON = (By.ID, "add-to-cart-sauce-labs-backpack")
     BOLT_TSHIRT_ADD_BUTTON = (By.ID, "add-to-cart-sauce-labs-bolt-t-shirt")
     ONESIE_ADD_BUTTON = (By.ID, "add-to-cart-sauce-labs-onesie")
@@ -42,8 +44,8 @@ class MainPage:
 
     def go_to_cart(self):
         """
-         Переходит на страницу корзины по иконке корзины.
+        Переходит на страницу корзины по иконке корзины.
 
-         :return: None
-         """
+        :return: None
+        """
         self.driver.find_element(*self.CART_ICON).click()
